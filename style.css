@@ -106,7 +106,7 @@ p,a {
 .coach_card p {
 
 	margin: 1rem 0 1rem 0;
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 	color: var(--dark_body_text) ;
 	max-width: 32rem;
 }
@@ -367,6 +367,7 @@ p,a {
 
 
 @media(min-width:960px ){
+	
 	.edmyst-advantage-wrapper{
 		display: flex;
 		flex-direction: row;
