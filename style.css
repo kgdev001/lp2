@@ -16,6 +16,9 @@
 	--yellow: #FFC107;
 
 }
+*{
+	font-family:'Poppins', sans-serif;
+}
 
 html, body{
 	font-family:'Poppins','sans-serif' ;
