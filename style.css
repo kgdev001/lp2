@@ -76,12 +76,12 @@ p,a {
 }
  .edmyst-advantage-image{
 
-	width:20rem;
+	width:25rem;
 	margin: 2rem 0 2rem 0;
 }
 
 .edmyst-advantage-image-2{
-	width:20rem;
+	width:25rem;
 }
 
 .featured-coaches-section{
@@ -367,6 +367,12 @@ p,a {
 
 
 @media(min-width:960px ){
+	h1{
+		font-sizr:4rem;
+	}
+	h2{
+		font-size:3.5rem;
+	}
 	
 	.edmyst-advantage-wrapper{
 		display: flex;
