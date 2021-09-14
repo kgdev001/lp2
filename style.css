@@ -1,0 +1,470 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+:root{
+
+	--background_blue: #084587;
+	--background_OffWhite: #F8F9FA;
+	--blue_signature: #007BFF;
+	--dark_heading_text: #414141;
+	--dark_body_text: #6C757D;
+	--text-white: #ffffff;
+	--yellow: #FFC107;
+
+}
+
+html, body{
+	font-family:poppins,sans-serif ;
+	font-size:62.5%;
+}
+
+h1 {
+	font-size: 3.5rem;
+	color: var(--blue_signature);
+}
+
+h2{
+	font-size: 2.5rem;
+	color: var(--dark_heading_text);
+}
+
+h3{
+	font-size: 1.8rem;
+}
+
+h4{
+	font-size: 2rem;
+}
+
+p,a {
+	font-size: 1.6rem;
+	color: var(--dark_body_text);
+}
+
+.container-section{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	align-items: center;
+	text-align: center;
+	padding: 2rem 1rem ;
+}
+.hero_section{
+	min-height: 100vh;
+	display: flex;
+	background-color: var(--background_OffWhite);
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+}
+
+.hero_section>p{
+	margin-top: 5rem;
+	max-width:120rem ;
+
+}
+.hero_section>a{
+	margin-top: 5rem;
+}
+ .edmyst-advantage-image{
+
+	width:20rem;
+	margin: 2rem 0 2rem 0;
+}
+
+.edmyst-advantage-image-2{
+	width:20rem;
+}
+
+.featured-coaches-section{
+	background-color: var(--background_blue);
+	
+}
+
+.featured-coaches-section>h2{
+	color:var(--text-white) ;
+}
+
+.coach_card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    background-color: var(--background_OffWhite);
+    margin: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.coach_card p {
+
+	margin: 1rem 0 1rem 0;
+	font-size: 1.2rem;
+	color: var(--dark_body_text) ;
+	max-width: 32rem;
+}
+
+.coach_card h3{
+	margin: 1rem 0 0 0;
+	color: var(--dark_heading_text);
+
+}
+
+.coach_image_container{
+	border-radius: 50%;
+	height: 12rem;
+	width: 12rem;
+	background-color:white;
+	overflow: hidden;
+}
+
+.coach_image{
+	width: 100%;
+	overflow: hidden;
+
+	
+}
+
+.cta_button{
+    cursor: pointer;
+    color: black;
+    background-color: var(--yellow);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding:1rem 2rem 1rem 2rem;
+   /* width:80%;*/
+    max-width: 45rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    /*min-width: 50%;*/
+    text-align: center;
+    
+}
+
+.cta_button:hover{
+	color: white;
+	background-color: ;
+}
+
+.coach_card_action_buttons{
+	display: flex;
+	flex-direction: column;
+}
+
+.container-credentials{
+	color: var(--dark_heading_text) ;
+	height: 100vh;
+	text-align: center;
+	margin-bottom: 2.5rem;
+	margin-top: 2rem;
+}
+
+.container-credentials>marquee{
+	margin-top: 2rem;
+}
+
+.use-case-container{
+	background-color: var(--background_OffWhite);
+	background-image: url("https://www.edmyst.com/public/img/howitwork.jpg");
+	background-repeat: no-repeat;
+	/*background-size: 50vh;*/
+	background-size: contain;
+	/*background-position: center;*/
+	
+}
+
+.use-case{
+	text-align: left;
+	display: flex;
+	flex-direction: row;
+	margin-top: 2rem;
+	
+}
+
+.use-case-text{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.use-case-bullet{
+	margin:1rem 2rem;
+}
+
+.use-case-wrapper{
+	border-color: var(--yellow);
+	border-width: 0.5rem;
+	border-style: solid;
+	border-radius: 2rem;
+	padding:3rem 2rem;
+	margin-top: 25vh;
+	max-width: 80%;
+	background-color: white;
+
+}
+
+.how-it-works{
+	background-color:var(--background_blue) ;
+	color: white;
+}
+
+.how-it-works >h2 {
+	color: white;
+}
+
+.how-it-works-steps{
+	margin-top: 3rem;
+}
+
+.item-value{
+	margin: 2rem;
+}
+
+
+.item-value>img{
+	width: 7rem;
+}
+
+.item-value>p{
+		color: white;
+	}
+
+.use-case-logo{
+	margin:1rem ;
+}
+
+.card-testimonial{
+	margin: 2rem;
+	border-radius: 2rem;
+	background-color:#D4E8FD ;
+	padding: 2rem;
+	border-color: var(--yellow);
+	border-style: solid;
+	max-width: 32rem;
+
+}
+
+.card-testimonial>h2 h3{
+	color: var(--dark_heading_text);
+}
+
+
+.pricing-section
+{
+	background-color: var(--background_OffWhite);
+}
+.pricing-box{
+	margin: 2rem;
+	border-radius: 2rem;
+	padding: 2rem;
+	background-color: white;
+	border-color: var(--blue_signature);
+	border-style: solid;
+}
+
+.pricing-box>h4{
+	color: var(--blue_signature);
+	margin: 2rem;
+}
+
+.pricing-box>p{
+	margin: 2rem;
+}
+
+.pricing-box-prime{
+	background: linear-gradient(180deg, #007BFF 0%, rgba(0, 123, 255, 0.48) 100%);
+	color: white;
+	margin: 2rem;
+	border-radius: 2rem;
+	padding: 2rem;
+	background-color: white;
+	border-color: var(--blue_signature);
+	border-style: solid;
+
+}
+
+.pricing-box-prime>h4{
+	color: white;
+	margin: 2rem;
+}
+
+.pricing-box-prime>p{
+	margin: 2rem;
+	color: white;
+
+}
+
+.container-contact-form{
+	background-color: var(--background_blue);
+	padding-top: 6.3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.container-contact-form p{
+	color: white;
+	
+}
+
+.container-contact-form h3{
+	color: white;
+}
+
+.form-wrapper{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form-text{
+	display: none;
+}
+.contact-form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 25rem;
+	margin: 2rem;
+	padding: 3.2rem;
+	background-color: var(--blue_signature);
+	border-radius: 2rem;
+}
+
+.contact-form p{
+	text-align: center;
+}
+
+
+
+
+.contact-form input[type=text]{
+	background-color: white;
+	margin: 2rem;
+	height: 4rem;
+	border-radius: 2rem;
+	padding-left:2rem ;
+	width: 25rem;
+}
+
+.contact-form input[type=submit]{
+	background-color: var(--yellow);
+	margin: 2rem;
+	height: 4rem;
+	border-radius: 2rem;
+	width: 25rem;
+	
+}
+
+
+
+@media(min-width:960px ){
+	.edmyst-advantage-wrapper{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-top: 10rem;
+		width: 100%;
+
+	}
+	/* this class limits content width to 1200px on all screen sizes*/
+	.content-wrapper{
+		max-width: 1200px;
+	}
+
+	.coach-card-container{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	.coach_card{
+		max-width: 33rem;
+	}
+
+	.use-case-container{
+		background-color: var(--background_OffWhite);
+		background-image: url("https://www.edmyst.com/public/img/howitwork.jpg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+	}
+
+
+	.use-case-wrapper{
+		border-color: var(--yellow);
+		border-width: 0.5rem;
+		border-style: solid;
+		border-radius: 2rem;
+		padding:3rem 2rem;
+		margin-top: 25vh;
+		width: 30%;
+		background-color: white;
+		margin-left: 50vw;
+	}
+
+	.item-value>p{
+		color: white;
+	}
+
+	.how-it-works-steps{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-top: 35vh;
+}
+	.card-testimonial-wrapper{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-top: 12rem;
+	}
+
+	.container-testimonials>a{
+		margin-top: 12rem;
+	}
+
+
+
+	.pricing-wrapper{
+		margin-top: 20rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+
+	}
+
+	.pricing-section>a{
+		margin-top: 10rem;
+	}
+
+	.form-wrapper{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		height: auto;
+
+	}
+
+	.form-wrapper p{
+		text-align:initial;
+	}
+
+	.form-wrapper h3{
+		text-align:initial;
+		margin-bottom:3rem ;
+	}
+	.contact-form-text{
+		display:block ;
+		max-width: 70rem;
+	}
+}
